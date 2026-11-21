@@ -65,3 +65,26 @@ The changelog is cumulative. Never delete or rewrite previous entries; append co
 - Rebuilt from V42 after the reported V43 failure.
 - Visible V44 header and V44 Service Worker cache identifier.
 - Documented removal of the decorative duplicate MINUS pseudo-element while retaining the actual MINUS action; device confirmation pending.
+
+
+## V2 E1 — 21.11.2026
+### Schimbări aplicate
+- Începută seria nouă de ediții: V2 E1.
+- Versiunea V45 eliminată din antetul vizibil al aplicației.
+- Titlul filei browserului și meta application-version actualizate la V2 E1.
+- Cache-ul Service Worker actualizat la identificatorul unic V2 E1.
+- Codul și datele moștenite sunt păstrate; nu s-au schimbat cheile localStorage/IndexedDB.
+
+### Plan confirmat pentru edițiile următoare
+- Carduri Măsurători compacte; pictograma selectorului în stânga selectorului de tip; butonul plus în dreapta.
+- Acțiunile Adaugă / Salvează în setări / X apar numai în fereastra deschisă prin plus.
+- MINUS existent se păstrează și se integrează în cardul compact.
+- Fotografii asociate obiectului și agregate automat în galeria încăperii; fotografii generale ale încăperii separat.
+- Pictograme personalizate, recente și biblioteca aplicației.
+- Reordonare prin drag-and-drop și butoane sus/jos.
+- Home, navigare adaptivă telefon/tabletă/desktop, butoane Înapoi și Setări reorganizate.
+
+### Testare și limite
+- Verificarea sintaxei JavaScript și integrității arhivei se execută pentru E1.
+- Testarea în browser și pe iPad/telefon/desktop nu este efectuată de acest build.
+- Redesign-ul funcțional rămâne în lucru; vezi PENDING_WORK.md.

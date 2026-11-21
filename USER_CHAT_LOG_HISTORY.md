@@ -136,3 +136,7 @@ Specific requests:
 ## D. Transcript integrity
 
 Only messages available in the current conversation can be retained as exact quotations. Older conversations are represented as summaries when their full text is unavailable. Never invent a verbatim quote or claim that this file contains every message from all historical chats.
+
+
+## 21.11.2026 — Începutul seriei V2 E
+Utilizatorul a cerut ca noua serie să înceapă cu DevizPRO V2 E1 și ca edițiile următoare să incrementeze numai numărul E (E2, E3 etc.). A confirmat că în cardul compact Măsurători pictograma selectorului trebuie să fie lipită în stânga selectorului Obiect/Tip, iar butonul + în dreapta, toate pe același rând. Selectorul de pictograme se deschide numai la apăsarea pictogramei. Butoanele Adaugă, Salvează în setări și X apar exclusiv în fereastra deschisă prin +. Funcția MINUS existentă trebuie păstrată. Fotografiile fiecărui obiect trebuie asociate obiectului și agregate automat în galeria încăperii; galeria încăperii poate avea și fotografii generale.

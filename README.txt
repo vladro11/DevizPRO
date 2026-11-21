@@ -1,3 +1,24 @@
+DEVIZPRO V2 E1 — PRIMA EDIȚIE A SERIEI V2
+Data build: 21.11.2026
+Bază tehnică: arhiva V45 PRO, păstrată ca motor funcțional și structură de date
+
+NUMEROTARE NOUĂ
+- Seria nouă începe cu V2 E1.
+- Următoarele actualizări vor fi V2 E2, V2 E3, V2 E4 etc.
+- Se schimbă numai numărul E la fiecare ediție; V2 rămâne seria principală.
+- Versiunea nu este afișată în interfața aplicației. Ea apare numai în titlul filei browserului și în identificarea tehnică a buildului.
+- Numele instalat/PWA rămâne simplu: DevizPRO.
+
+CE CONȚINE EDIȚIA E1
+1. Începe noua serie de versiuni V2 E.
+2. Elimină eticheta V45 din antetul aplicației.
+3. Actualizează titlul filei browserului, metadatele și cache-ul Service Worker la V2 E1.
+4. Păstrează codul funcțional, structura de date, cheile locale și funcțiile moștenite din V45.
+5. Înregistrează cerințele aprobate pentru refacerea Măsurătorilor, galeriilor foto, MINUS, navigării, Home și Setărilor ca plan de implementare incrementală.
+
+LIMITĂ IMPORTANTĂ E1
+E1 este ediția de pornire a noii numerotări și fundația pentru modificările următoare. Redesign-ul complet descris în conversație nu este încă implementat în această arhivă. Nu se declară implementate funcții care sunt doar proiectate.
+
 DEVIZPRO V45 PRO — DOCUMENTAȚIE ȘI CONTINUITATE AI
 Data build: 12.11.2026
 Bază: DevizPRO V44 PRO (V44 restaurată din V42)

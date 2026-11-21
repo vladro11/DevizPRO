@@ -1,3 +1,51 @@
+# DevizPRO — Plan de lucru V2 E1 → E2+
+
+**Regulă versiuni:** V2 E1 este prima ediție a seriei V2. Modificările viitoare cresc doar numărul E: E2, E3, E4 etc.
+
+## Cerințe confirmate în conversația din 21.11.2026
+
+### Măsurători — card compact
+- [ ] Rând compact unic: pictogramă selector în stânga, selectorul Obiect/Tip în centru, buton verde + în dreapta.
+- [ ] Selectorul de pictograme se deschide numai la apăsarea pictogramei din stânga; nu se afișează o zonă separată sub câmp.
+- [ ] Dimensiuni pe un rând: lungime, înălțime/lățime, adâncime, adaptate la lățimea ecranului.
+- [ ] Camera și Galeria ca butoane icon-only compacte.
+- [ ] Eliminare completă a butonului fără funcție „Modifică dimensiuni”.
+- [ ] Vizibilitate prin pictogramă ochi: verde = vizibil, gri/roșu = ascuns.
+- [ ] Acțiunea MINUS existentă se păstrează; nu se elimină și nu se dublează.
+
+### Fereastra „+ Obiect/Tip nou”
+- [ ] Numai în această fereastră apar Adaugă, Salvează în setări și X.
+- [ ] Adaugă creează tipul doar în încăperea curentă.
+- [ ] Salvează în setări creează tipul în încăperea curentă și îl salvează în catalogul general.
+- [ ] X închide/anulează; dacă există date nesalvate, cere confirmare.
+
+### Fotografii
+- [ ] Fiecare fotografie făcută/aleasă din interiorul unui obiect se asociază acelui obiect.
+- [ ] Galeria încăperii agregă automat fotografiile tuturor obiectelor, fără duplicarea fișierelor.
+- [ ] Galeria încăperii permite și fotografii generale, fără obiect asociat.
+- [ ] Filtrare/grupare după obiect și păstrarea relației la ștergere/editare.
+- [ ] Camera și Galerie compacte, cu pictograme clare.
+
+### Reordonare și responsive
+- [ ] Drag-and-drop fiabil pentru touch, stylus și mouse.
+- [ ] Butoane alternative sus/jos.
+- [ ] Telefon: navigare jos; tabletă: navigare sus; desktop: meniu lateral.
+- [ ] Pagini secundare cu Înapoi și fără bara principală repetată.
+
+### Home și Setări
+- [ ] Home combină dashboard financiar și organizarea zilnică a lucrărilor.
+- [ ] Graficele folosesc date reale din aplicație, nu valori demonstrative.
+- [ ] Setări grupate în categorii clare, fiecare pe rând separat pe telefon.
+- [ ] Câmpuri personalizate acolo unde sunt utile.
+
+## Prioritate de implementare
+1. Audit date și backup; maparea funcțiilor reale V45, inclusiv MINUS și fotografii.
+2. Card compact Măsurători și fereastra +.
+3. Asocierea foto obiect → galerie încăpere.
+4. MOVE și responsive navigation.
+5. Home și Setări.
+6. Teste automate, browser, apoi test pe dispozitive reale.
+
 # DevizPRO — Pending Work / Backlog
 
 Ultima actualizare: V45 · 12.11.2026

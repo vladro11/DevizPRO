@@ -74,3 +74,14 @@
 - [ ] Windows laptop/desktop.
 
 Do not mark a test as passed unless it was actually run. The prior `node --check` results do not prove browser or device functionality.
+
+
+## V2 E1 — verificări pentru acest build
+- [ ] Versiunea nu apare în antetul vizibil al aplicației.
+- [ ] Titlul filei browserului afișează DevizPRO V2 E1.
+- [ ] Meta application-version este 2-E1.
+- [ ] Service Worker folosește cache V2 E1 și toate resursele există.
+- [ ] Toate blocurile JavaScript inline trec `node --check`.
+- [ ] ZIP trece `unzip -t`.
+- [ ] Test de pornire în browser și verificare date persistente.
+- [ ] Test pe iPad, telefon și desktop — încă neefectuat.
