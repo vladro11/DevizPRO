@@ -144,3 +144,24 @@ Ultima actualizare: V45 · 12.11.2026
 - [ ] Test on iPad, Android phone, and Windows.
 - [ ] Update all Romanian-English documents, chat log, changelog, and JSON state.
 - [ ] Package and integrity-check the complete ZIP.
+
+
+## V2 E2 — lucrări rămase / Remaining work
+
+### Prioritate imediată
+- [ ] Manager pictograme personalizate: import galerie/fișier, denumire, redenumire, ștergere, pictograme recente primele.
+- [ ] Viewer foto complet: zoom, rotire, swipe, ștergere și editare/annotare fără suprascrierea originalului.
+- [ ] Filtrare galerie pe obiect și fotografii generale ale încăperii.
+- [ ] Validare pe Safari iPad pentru adăugare foto, stocare locală și reorder.
+
+### Redesign general rămas
+- [ ] Home cu dashboard financiar și management zilnic de lucrări bazat pe date reale.
+- [ ] Navigare telefon jos / tabletă sus / desktop sidebar și revenire Înapoi la pagina exactă.
+- [ ] Setări reorganizate în categorii și pagini separate.
+- [ ] Audit și teste complete MINUS/MERGE, clienți, devize, bonuri, PV, export, backup/restore și offline.
+
+### Remaining general redesign (English)
+- [ ] Home dashboard for real financial data and daily work management.
+- [ ] Phone bottom navigation / tablet top navigation / desktop sidebar and exact nested Back navigation.
+- [ ] Settings reorganized into categories and separate pages.
+- [ ] Full regression audit for MINUS/MERGE, clients, estimates, receipts, work reports, export, backup/restore and offline use.

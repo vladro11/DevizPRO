@@ -55,3 +55,16 @@ Cumulative decision log. Document technical reasons, alternatives, consequences,
 - **Decision:** Provide complete Romanian and English content in every human-readable project document and a consolidated bilingual Word file.
 - **Reason:** Parallel language content improves portability and makes technical terminology accessible. Machine-readable JSON keys remain stable to avoid breaking tooling.
 - **Application impact:** None; this is documentation-only.
+
+
+## V2 E2 — 21.11.2026
+- Measurement persistence continues to use the existing `dp_measurements` and `dp_measure_types` keys. Object `visible` and `photos` are additive properties.
+- Photo files are converted to resized JPEG data URLs before persistence to reduce local storage pressure. Browser storage quotas remain a device/browser constraint.
+- Object reorder offers explicit up/down controls for touch and HTML drag/drop for mouse. Physical touch drag validation is pending.
+- The ZIP has no top-level folder; all project files are at archive root for manual GitHub upload.
+
+## V2 E2 — 21 November 2026 (English)
+- Measurement persistence keeps existing `dp_measurements` and `dp_measure_types` keys. `visible` and `photos` are additive object properties.
+- Photos are resized and converted to JPEG data URLs before persistence to reduce storage pressure; browser quotas still apply.
+- Reordering uses explicit up/down controls for touch and HTML drag/drop for mouse. Physical touch-drag validation is pending.
+- The ZIP contains no parent directory; all files are at archive root for manual GitHub upload.

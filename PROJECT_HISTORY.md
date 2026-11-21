@@ -83,3 +83,7 @@ V45 inherited the V44 application code, synchronized public version labels and S
 ## V45 bilingual documentation update
 
 This update adds English content alongside Romanian in the project documents and provides a consolidated bilingual Word file. Application functionality and data structures remain unchanged.
+
+
+## 21.11.2026 — V2 E2
+V2 E2 introduces a partial functional Measurements redesign on the V45-derived code line. It retains the existing measurement storage keys and adds object visibility and photos as additive properties. The full requested redesign remains incomplete; see VERSION_STATE.json and PENDING_WORK.md. The release archive is flat-root for individual GitHub file upload.

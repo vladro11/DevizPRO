@@ -85,3 +85,14 @@ Do not mark a test as passed unless it was actually run. The prior `node --check
 - [ ] ZIP trece `unzip -t`.
 - [ ] Test de pornire în browser și verificare date persistente.
 - [ ] Test pe iPad, telefon și desktop — încă neefectuat.
+
+
+## V2 E2 automated / manual validation
+- [ ] Confirm add object only adds to current room.
+- [ ] Confirm Save to settings also adds type to global catalog.
+- [ ] Confirm object visibility persists after save/reload.
+- [ ] Confirm object photos persist and room gallery aggregates them.
+- [ ] Confirm photo storage remains within device quota for real workloads.
+- [ ] Confirm reorder by mouse and touch controls on real devices.
+- [ ] Regression-test MINUS, MERGE, transfer to estimate, save/load, export, backup/restore.
+- [ ] Test iPad Safari, phone browser and desktop browser.

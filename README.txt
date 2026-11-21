@@ -111,3 +111,13 @@ Read `00_MANDATORY_INSTRUCTIONS.md` first in every future AI session. Then read 
 ROMÂNĂ / ENGLISH
 Toate documentele text AI CORE au secțiuni complete în română și engleză. Fișierul Word consolidat este `DevizPRO_AI_CORE_BILINGUAL.docx`. `VERSION_STATE.json` păstrează cheile tehnice stabile și include câmpuri descriptive bilingve.
 All AI CORE text documents contain Romanian and English sections. The consolidated Word file is `DevizPRO_AI_CORE_BILINGUAL.docx`. `VERSION_STATE.json` keeps stable technical keys and includes bilingual descriptive fields.
+
+
+V2 E2 RELEASE NOTE / NOTĂ RELEASE
+This ZIP is intentionally FLAT: index.html, service-worker.js, manifest.webmanifest, icons and documentation are stored directly at the ZIP root. Do not expect a DevizPRO/ parent folder. This makes it easier to upload files individually to GitHub from iPad.
+
+V2 E2 is a partial functional update. The compact Measurements cards, object add dialog, per-object photos/room gallery and reorder controls have been implemented. The full Home/Settings/navigation redesign, custom icon manager, full photo editor and full regression testing remain pending. Physical device tests have not been performed.
+
+Această arhivă ZIP este intenționat FĂRĂ FOLDERE: index.html, service-worker.js, manifest.webmanifest, pictogramele și documentația sunt direct la rădăcina arhivei. Nu există director părinte DevizPRO/. Astfel fișierele pot fi încărcate individual pe GitHub de pe iPad.
+
+V2 E2 este o actualizare funcțională parțială. Cardurile compacte Măsurători, dialogul de adăugare obiect, fotografiile per obiect/galeria încăperii și controalele de reordonare sunt implementate. Redesign-ul complet Home/Setări/navigare, managerul pictogramelor personalizate, editorul foto complet și testarea completă de regresie rămân restante. Nu au fost efectuate teste fizice pe dispozitive.

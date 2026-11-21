@@ -117,3 +117,9 @@ Because much of the application is in one HTML file, scripts can depend on funct
 ## 6. Learning note
 
 A release label is metadata, not a feature implementation. Updating a title or cache identifier does not redesign a screen or repair its event handlers. Always compare source diffs and test behavior before describing a feature as complete.
+
+
+## V2 E2 code notes / Note de cod
+The Measurements renderer now emits compact object cards. Dimension inputs call the existing `dpSetMeasureValue` path, so the original calculation and measurement object model are reused. Photo records are stored on each measurement object (`photos[]`) and the room gallery derives its view by aggregating those arrays. Reordering changes only the order of entries in the existing room `elements` array. The add dialog uses the existing type catalog and writes through the existing persistence helpers. No new storage database or renamed key was introduced.
+
+Rendererul Măsurători generează acum carduri compacte. Câmpurile dimensionale folosesc funcția existentă `dpSetMeasureValue`, păstrând modelul original de calcul. Fotografiile se salvează în `photos[]` pe obiect, iar galeria încăperii este construită prin agregarea acestor liste. Reordonarea schimbă doar ordinea elementelor în array-ul existent `elements`. Dialogul de adăugare folosește catalogul existent și funcțiile de persistență deja prezente. Nu a fost introdusă o bază de date nouă și nu au fost redenumite chei.

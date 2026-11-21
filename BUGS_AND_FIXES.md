@@ -54,3 +54,16 @@ Nu muta un bug la „închis” doar pentru că a fost editat codul. Închide-l 
 ## Reporting rule
 
 A documented fix is not automatically a verified fix. Record the source change, automated test, browser test, device test, and user confirmation separately.
+
+
+## V2 E2 — note de verificare
+- Cardurile Măsurători au fost înlocuite cu o structură compactă; verificarea vizuală pe dispozitive reale este încă necesară.
+- Reordonarea prin drag/drop este disponibilă pentru mouse; pentru touch sunt disponibile săgețile sus/jos.
+- Fotografii: asociere la obiect și galerie agregată; limita de stocare a browserului poate apărea la volume mari.
+- Nu s-a făcut încă audit complet al comportamentului MINUS/MERGE sau al tuturor fluxurilor financiare/documentare.
+
+## V2 E2 — verification notes (English)
+- Measurement cards have been replaced with a compact layout; visual validation on real devices is still required.
+- Drag/drop is available for mouse; up/down arrows are provided for touch.
+- Photos are attached to objects and aggregated in the room gallery; browser storage limits may apply for large photo collections.
+- A complete audit of MINUS/MERGE and all finance/document workflows has not yet been performed.

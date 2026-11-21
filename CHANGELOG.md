@@ -88,3 +88,40 @@ The changelog is cumulative. Never delete or rewrite previous entries; append co
 - Verificarea sintaxei JavaScript și integrității arhivei se execută pentru E1.
 - Testarea în browser și pe iPad/telefon/desktop nu este efectuată de acest build.
 - Redesign-ul funcțional rămâne în lucru; vezi PENDING_WORK.md.
+
+
+## V2 E2 — 21.11.2026 — implementare funcțională parțială
+
+### Implementat în cod
+- Cardurile obiectelor din Măsurători au fost refăcute compact și responsiv; pictograma este la stânga selectorului de tip, câmpurile dimensionale sunt editate direct, iar starea de vizibilitate are control tip ochi.
+- Butonul + deschide o fereastră dedicată; „Adaugă” păstrează tipul doar în încăperea curentă, iar „Salvează în setări” adaugă și definiția în catalogul general.
+- Fotografiile se atașează obiectului, iar galeria încăperii agregă fotografiile obiectelor fără a crea copii logice separate. Imaginile sunt redimensionate/comprimate înainte de stocarea locală.
+- Reordonarea are controale sus/jos utilizabile tactil și drag-and-drop pentru mouse.
+- Titlul browserului și cache-ul Service Worker sunt V2 E2; numele PWA rămâne DevizPRO.
+- Arhiva de livrare este construită cu fișierele direct la rădăcină, fără director părinte.
+
+### Neimplementat încă
+- Managerul complet de pictograme personalizate și recente; editorul foto complet; redesign-ul Home, Setări și navigarea adaptivă; funcțiile suplimentare de client/calendar/cheltuieli discutate anterior; testele complete de regresie MINUS/MERGE și fluxurile de documente. Acestea nu sunt declarate finalizate.
+
+### Testare
+- Se execută verificarea sintaxei JavaScript inline, a fișierelor JSON, a resurselor Service Worker și a integrității ZIP.
+- Nu au fost efectuate teste fizice pe iPad, telefon sau desktop. Drag-and-drop cu mouse nu garantează comportamentul tactil; pentru touch sunt oferite și butoane sus/jos.
+- Nu s-au schimbat cheile localStorage/IndexedDB și nu s-a executat migrare de date.
+
+## V2 E2 — 21 November 2026 — partial functional implementation
+
+### Implemented in code
+- Measurement object cards are compact and responsive; the icon is left of the type selector, dimensions are edited inline, and visibility has an eye-style control.
+- The + button opens a dedicated dialog. “Add” adds the object only to the current room; “Save to settings” also saves the definition to the global measurement catalog.
+- Photos are attached to their object; the room gallery aggregates object photos without creating separate logical copies. Images are resized/compressed before local persistence.
+- Reordering includes touch-friendly up/down controls and mouse drag-and-drop.
+- Browser title and Service Worker cache are V2 E2; PWA display name remains DevizPRO.
+- The delivery ZIP places files directly at archive root, with no parent directory.
+
+### Not implemented yet
+- Full custom/recent icon manager; full photo editor; Home, Settings and adaptive navigation redesign; additional client/calendar/expense enhancements discussed earlier; full MINUS/MERGE and document-workflow regression tests. These are not marked complete.
+
+### Testing
+- Inline JavaScript syntax, JSON files, Service Worker asset references and ZIP integrity are checked.
+- No physical iPad, phone or desktop testing has been performed. Mouse drag-and-drop does not guarantee touch behavior; touch users also have up/down controls.
+- No localStorage/IndexedDB keys were changed and no data migration was run.
