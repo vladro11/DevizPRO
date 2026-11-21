@@ -1,70 +1,13 @@
 {
   "project": "DevizPRO",
-  "release_version": "2-E2",
-  "release_display": "V2 E2",
+  "release_version": "2.1.0",
+  "current_version": "DevizPRO v2 — E2",
   "release_date": "2026-11-21",
-  "release_status": "partial functional implementation; full requested redesign not complete; device tests pending",
-  "versioning_rule": "V2 E1, V2 E2, V2 E3...; increment only E for subsequent editions",
-  "base_archive": "DevizPRO_V45_PRO_BILINGUAL.zip (source lineage carried through V2 E1)",
-  "base_code_lineage": "V2 E2 applies a localized Measurements UI and object/photo workflow patch to the V45-derived V2 E1 code; original storage keys and data structures retained.",
-  "application_version_label": "hidden-from-app-interface",
-  "browser_title": "DevizPRO V2 E2",
-  "service_worker_cache": "devizpro-v2-e2-release-20261121",
-  "pwa_display_name": "DevizPRO",
-  "data_migration": "none; existing measurement keys retained; new object properties are additive (visible/photos)",
-  "local_storage_indexeddb_keys_changed": false,
-  "implemented_in_e1": [
-    "new V2 E-series numbering",
-    "removed visible V45 label from app header",
-    "updated browser tab title and application-version metadata",
-    "updated Service Worker cache identifier",
-    "updated release documentation and approved implementation backlog"
-  ],
-  "not_yet_implemented": [
-    "custom icon upload, naming, rename and delete workflow; recent icon ordering",
-    "full-screen photo viewer with in-app zoom, rotate, edit/annotate, delete and swipe",
-    "robust cross-room drag/drop gesture testing on touch/stylus; current touch-safe up/down controls available",
-    "full Home financial/work dashboard redesign",
-    "responsive phone bottom navigation, tablet top navigation, desktop sidebar and nested Back navigation",
-    "complete Settings category/page redesign",
-    "full client file, appointment and expense enhancements discussed in prior project chats",
-    "full regression audit of MINUS/MERGE, all estimate/payment/document workflows and exports"
-  ],
-  "preserved_features": [
-    "existing MINUS/Clipping behavior",
-    "existing MERGE behavior",
-    "existing measurements and room data structures",
-    "existing offline/PWA architecture",
-    "existing RO/RU language support",
-    "existing clients, estimates, payments, documents, and settings logic"
-  ],
-  "automated_checks": {
-    "inline_javascript_syntax": "PENDING_FINAL_CHECK",
-    "service_worker_assets": "PENDING_FINAL_CHECK",
-    "zip_integrity": "PENDING_FINAL_CHECK",
-    "html_duplicate_ids": "PENDING_FINAL_CHECK"
-  },
-  "device_tests": {
-    "ipad": "NOT TESTED",
-    "phone": "NOT TESTED",
-    "desktop": "NOT TESTED"
-  },
-  "next_release_priority": [
-    "custom icon manager",
-    "photo viewer/editor and room gallery filtering",
-    "Home and Settings redesign",
-    "adaptive navigation and nested Back behavior",
-    "full MINUS/MERGE and financial/document regression tests",
-    "physical iPad and phone validation"
-  ],
-  "implemented_in_e2": [
-    "compact responsive Measurement object cards with icon left of type selector and inline dimension fields",
-    "visibility eye toggle per object",
-    "new object dialog with Add-to-current-room and Save-to-settings actions",
-    "object-specific camera/gallery photo input and room-level aggregated photo strip",
-    "image downscaling/compression before local persistence",
-    "object reorder by desktop drag-and-drop and touch-friendly up/down controls",
-    "V2 E2 browser title, metadata and Service Worker cache identifier",
-    "flat ZIP packaging at archive root for GitHub individual-file upload"
-  ]
+  "release_status": "incremental implementation; static checks pending; real-device validation not performed",
+  "public_application_name": "DevizPRO",
+  "public_version_suffix": false,
+  "home_dashboard": "financial + daily activity; values derived from locally stored quotes, payments, expenses, appointments",
+  "data_migration": "no intentional changes to existing storage keys or schemas",
+  "package_layout": "flat root files only; no directories inside archive",
+  "device_tests": {"iPad":"NOT TESTED", "Android":"NOT TESTED", "Windows":"NOT TESTED"}
 }
